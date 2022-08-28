@@ -44,33 +44,33 @@ function Navbar() {
                     </div>
                     <ul className="MENU-LINK-MOBILE-OPEN text-2xl my-8 font-bold text-white flex flex-col items-center justify-between min-h-[250px]">
                       <li className="  ">
-                        <a href="/about">About Me</a>
+                        <a href="/">About Me</a>
                       </li>
                       <li className="  ">
-                        <a href="/portfolio">Stacks</a>
+                        <a href="/">Stacks</a>
                       </li>
                       <li className="  ">
-                        <a href="/portfolio">Portfolio</a>
+                        <a href="/">Portfolio</a>
                       </li>
                       <li className=" ">
-                        <a href="/contact">Contact</a>
+                        <a href="/">Contact</a>
                       </li>
                     </ul>
                   </div>
                 </section>
         
-                <ul className="DESKTOP-MENU  font-bold text-white  hidden space-x-40  mr-12 lg:flex ">
+                <ul className="DESKTOP-MENU  font-bold text-white  hidden space-x-40  mr-16 lg:flex ">
                   <li>
-                    <a href="/about">About</a>
+                    <a href="/">About</a>
                   </li>
                   <li>
-                    <a href="/stacks">Stacks</a>
+                    <a href="/">Stacks</a>
                   </li>
                   <li>
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="/">Portfolio</a>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <a href="/">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -93,6 +93,52 @@ function Navbar() {
                 align-items: center;
               }
             `}</style>
+
+
+
+
+<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-blue-600'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='/'>
+              Linkedin 
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#333333]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='/'>
+              Github 
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#6fc2b0]'>
+           <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='/' > 
+              
+              Email 
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#565f69]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='/' >
+              Resume 
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+
             </div>
     )
 }
