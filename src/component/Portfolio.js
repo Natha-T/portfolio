@@ -33,7 +33,7 @@ function Portfolio() {
       <div className="pt-8 text-center ">
 
       
-      <a href="https://github.com/Natha-T/dashboard" target="_blank">
+      <a href="https://github.com/Natha-T/dashboard" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -42,7 +42,7 @@ function Portfolio() {
           </button>
         </a>
    
-        <a href="https://appcryptopay.web.app" target="_blank">
+        <a href="https://appcryptopay.web.app">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -70,7 +70,7 @@ function Portfolio() {
       </span>
       <div className="pt-8 text-center ">
       
-        <a href="https://www.fund.eyeseek.org" target="_blank">
+        <a href="https://www.fund.eyeseek.org" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -96,7 +96,7 @@ function Portfolio() {
       </span>
       <div className="pt-8 text-center ">
     
-        <a href="https://github.com/Natha-T/dashboard" target="_blank">
+        <a href="https://github.com/Natha-T/dashboard" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -125,7 +125,7 @@ function Portfolio() {
       </span>
       <div className="pt-8 text-center ">
     
-        <a href="https://github.com/Natha-T/dashboard" target="_blank">
+        <a href="https://github.com/Natha-T/dashboard">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -152,7 +152,7 @@ function Portfolio() {
       </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
-        <a href="https://github.com/Natha-T/nftmint" target="_blank">
+        <a href="https://github.com/Natha-T/nftmint" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -161,7 +161,7 @@ function Portfolio() {
           </button>
         </a>
         {/* eslint-disable-next-line */}
-        <a href="https://nft-mint-n.netlify.app" target="_blank">
+        <a href="https://nft-mint-n.netlify.app" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
