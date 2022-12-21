@@ -3,6 +3,8 @@ import moralis from '../img/moralis.png'
 import alchemy from '../img/alchemy.png'
 import thirdweb from '../img/thirdweb.png'
 
+import covalent from '../img/covalent.png'
+
 
 function Stacks() {
     return (
@@ -75,6 +77,25 @@ function Stacks() {
                     <p className='py-4'>Alchemy</p>
                 </div>
 
+                <div className='shadow-md shadow[] hover:scale-110 duration-500'>
+                    <img alt="css3" src={covalent} className='w-18 h-16 mx-auto' />
+                    <p className='py-4'>Covalent</p>
+                </div>
+
+                <div className='shadow-md shadow[] hover:scale-110 duration-500'>
+                    <img alt="css3" src="https://img.icons8.com/fluency/48/null/node-js.png" className='w-20 mx-auto' />
+                    <p className='py-4'>Node Js</p>
+                </div>
+
+                <div className='shadow-md shadow[] hover:scale-110 duration-500'>
+                    <img alt="css3" src="https://img.icons8.com/color/48/null/mongodb.png" className='w-20 mx-auto' />
+                    <p className='py-4'>MongoDB</p>
+                </div>
+
+                <div className='shadow-md shadow[] hover:scale-110 duration-500'>
+                    <img alt="css3" src="https://img.icons8.com/color/48/null/express-js.png" className='w-20 mx-auto' />
+                    <p className='py-4'>Express</p>
+                </div>
 
               </div>
 

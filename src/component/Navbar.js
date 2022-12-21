@@ -1,6 +1,17 @@
 import React from 'react'
 
-import { useState } from "react"; // import state
+import { useState } from "react"; 
+
+import {
+
+  FaGithub,
+
+
+  FaLinkedinIn,
+} from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import logo from '../img/logo.png';
 
 
 
@@ -11,7 +22,7 @@ function Navbar() {
     return (
          <div className="flex items-center justify-between  py-8 ">
               <a className='ml-6' href="/">
-               <p>logo </p>
+               <img className='w-20 rounded-xl' src={logo} alt="logo" />
               </a>
               <nav>
                 <section className="MOBILE-MENU flex lg:hidden">
@@ -102,30 +113,30 @@ function Navbar() {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'>
-              Linkedin 
+              href='https://www.linkedin.com/in/nathanael-t-bb77a41b4'>
+              Linkedin <FaLinkedinIn className='w-12' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'>
-              Github 
+              href='https://github.com/Natha-T'>
+              Github <FaGithub className='w-12' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#6fc2b0]'>
            <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/' > 
+              href='mailto:natha.trepon@gmail.com' > 
               
-              Email 
+              Email <HiOutlineMail className='w-12' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-1px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/' >
-              Resume 
+              Resume <BsFillPersonLinesFill className='w-12' />
             </a>
           </li>
         </ul>

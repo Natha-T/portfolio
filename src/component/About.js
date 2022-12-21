@@ -6,7 +6,7 @@ function About() {
             <div className='flex flex-col justify-center items-center w-full h-full '>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 '>
                     <div className='sm:text-right pb-8 pl-4'>
-                    <p className=' text-white text-4xl font-bold inline border-b-6 border-btnc'> About Me</p>
+                    <p className=' text-white text-4xl font-bold inline border-b-6 border-btnc'> A propos de moi</p>
 
                 </div>
                 <div></div>
@@ -14,7 +14,7 @@ function About() {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='text-btnc sm:text-right text-4xl font-bold'>
-                    <p> Hi I'm Nathanael ravis de vous voir ici. </p>
+                    <p> Salut moi c'est Nathanaël ravis de vous voir ici. </p>
                 </div>
                 <div>
                     <p className='text-lg text-gray-300'> Je suis passioné par les nouvelles technologie, être à la pointe de ce qui se fait

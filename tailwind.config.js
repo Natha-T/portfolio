@@ -10,7 +10,8 @@ module.exports = {
    "./src/component/Stacks.js",
    "./src/component/Portfolio.js",
    "./src/component/Contact.js",
-   "./src/component/About.js",   
+   "./src/component/About.js", 
+   "./src/component/Contact.js",     
   ],
   theme: {
     extend: {
