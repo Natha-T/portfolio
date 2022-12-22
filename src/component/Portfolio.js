@@ -64,12 +64,26 @@ function Portfolio() {
               flex justify-center text-center items-center mx-auto content-div "
   >
     {/* Hover effect for images */}
-    <div className="opacity-0 group-hover:opacity-100 ">
-      <span className="text-2xl font bold text-white tracking-wider ">
-       Decentralized CrowndFuding Platform (hackaton)
+    <div className="opacity-0 group-hover:opacity-100 mt-2">
+      <div className='grid'>
+      <span className=" text-2xl font bold text-white tracking-wider ">
+      Hackaton Moralis and Google:
       </span>
-      <div className="pt-8 text-center ">
-      
+      <span className=" text-2xl font bold text-white">
+      Decentralized CrowndFuding Platform
+      </span>
+        </div>
+    <div className='grid'>
+       <span className="text-base font bold text-white">
+        Polygon Winner : Best UI/UX
+        
+      </span>
+      <span className="text-base font bold text-white"> 
+        BNBChain 3rd place : Best traditional finance application
+      </span>
+    </div>
+      <div className=" text-center ">
+        
         <a href="https://www.fund.eyeseek.org" >
           <button
             className="text-center rounded-lg px-4 py-3 m-2
