@@ -165,7 +165,7 @@ function Portfolio() {
       </div>
       <div className="pt-8 text-center ">
     
-      <a href="https://github.com/Natha-T/MERN-Shop">
+      <a href="https://github.com/Natha-T/Shop-MERN">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
