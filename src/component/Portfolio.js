@@ -3,7 +3,7 @@ import cryptopayapp from '../img/cryptopayapp.png'
 import eyeseekfund from '../img/eyeseekfund.png'
 import nftmint from '../img/nftmint.png'
 import dashb from '../img/dashb.png'
-import mern from '../img/mern.png'
+
 import mernapp from '../img/mernapp.png'
 
 function Portfolio() {
