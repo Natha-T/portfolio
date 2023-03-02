@@ -11,8 +11,8 @@ function Stacks() {
         <div className='w-full h-screen '>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
               <div>
-                <p className='text-4xl font-bold inlive border-b-6 borber-btnc text-white'> Experience</p>
-                <p className='py-4 text-gray-300'> Les Stacks utilisés</p>
+                <p className='text-4xl font-bold inlive border-b-6 borber-btnc text-white'> Expériences</p>
+                <p className='py-4 text-gray-300 font-bold font-mono text-md'> Les Stacks utilisés :</p>
               </div>
 
 

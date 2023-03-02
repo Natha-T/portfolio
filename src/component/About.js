@@ -4,24 +4,23 @@ function About() {
     return (
         <div className='h-screen bg-backc'>
             <div className='flex flex-col justify-center items-center w-full h-full '>
-                <div className='max-w-[1000px] w-full grid grid-cols-2 '>
-                    <div className='sm:text-right pb-8 pl-4'>
-                    <p className=' text-white text-4xl font-bold inline border-b-6 border-btnc'> A propos de moi</p>
+                <div className='max-w-[1000px] w-full grid grid-col '>
+                    <div className='pb-8 pl-4'>
+                    <p className=' text-white text-4xl font-bold inline border-b-6 border-btnc'>À propos de moi</p>
 
                 </div>
-                <div></div>
+             
 
             </div>
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='text-btnc sm:text-right text-4xl font-bold'>
-                    <p> Salut moi c'est Nathanaël ravis de vous voir ici. </p>
-                </div>
+            <div className='max-w-[1000px] w-full grid  gap-8 px-4'>
+              
                 <div>
-                    <p className='text-lg text-gray-300'> Je suis passioné par les nouvelles technologie, être à la pointe de ce qui se fait
-                        est super et j'en apprend encore plus. Je suis spécialisé Front-End,Web3 et permet
-                        de vous accompagné dans l'évolution de votre projet. Je suis disponible donc n'hesitez
-                        pas a me contactez me faire par de vos problématique et nous trouverons une solution adaptez
-                        à vos demandes 
+                    <p className='text-lg font-mono text-gray-300'> 
+                       Après un parcours varié en expérience professionnelle j'ai décidé de me reconvertir en tant que développeur web.
+                        Ce choix est pour moi naturel et me permet de voir mon avenir avec plus d'ambition. Cependant je ne regrette pas mon parcours 
+                       professionnel qui m'a apporté maturité, conscience professionnelle et autonomie. En approfondissant mes recherches sur la blockchain
+                       j'ai compris le rôle de la décentralisation et les problèmes qu'elle peut résoudre.
+                        Depuis j'ai décidé de faire partie de ceux qui construisent ce monde.
                     </p>
                 </div>
 </div>
